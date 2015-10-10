@@ -50,12 +50,12 @@ unless ($tcpto) {
 
 unless ($test) {
     unless ($timeout) {
-        $timeout = 30;
-        print "Defaulting to a 30 second re-try timeout.\n";
+        $timeout = 15;
+        print "Defaulting to a 15 second re-try timeout.\n";
     }
     unless ($connections) {
-        $connections = 1000;
-        print "Defaulting to 1000 connections.\n";
+        $connections = 10000;
+        print "Defaulting to 10000connections.\n";
     }
 }
 
